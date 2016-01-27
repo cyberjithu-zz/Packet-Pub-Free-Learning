@@ -106,8 +106,3 @@ class FreeBookPackt(object):
 
         else:
             print 'FILE ALREADY DOWNLOADED'
-
-
-if __name__ == '__main__':
-    packt_object = FreeBookPackt()
-    packt_object.claim_book()
